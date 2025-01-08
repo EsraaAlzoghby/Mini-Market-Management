@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini - Market</title>
+     <!-- fonts google-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Text:wght@100..900&family=Caveat:wght@400..700&family=Cedarville+Cursive&family=Fredericka+the+Great&family=Ga+Maamli&family=Lustria&family=Playwrite+AU+SA:wght@100..400&family=Playwrite+AU+TAS+Guides&family=Playwrite+DE+Grund+Guides&family=Playwrite+US+Modern+Guides&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet"
+>
+        <!-- logo -->
+        <link rel="shortcut icon" href="images/mini-market-logo.png" type="image/x-icon" />
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="css/all.min.css" />
+        <!-- Main Styles -->
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/home-style.css" />
+
+        
+</head>
+
+<body style="background-color: #FEB5B1; ">
+  <header class="FormContainer">
+    <nav class="navbar navbar-expand-sm navbar-light z-3" style="background-color:rgba(254,181,177);">
+      <div class="container">
+        <img src="images/mini-market-logo.png" alt="" style="width: 30px; height: 30px; object-fit: cover;" >
+        <a class="navbar-brand ps-1 fs-5" href="./index.html">Mini Market</a>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fs-6" href="./pages/products.html">Products</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="my-5">
+      <div class="container">
+        <h1 class="text-white">
+          <img class="align-middle" width="50px" src="images/mini-market-logo.png" alt="" />
+          <span class="align-middle" id="textOne" style="color: #604cf8;">Welcome to Mini - Market</span>
+        </h1>
+        <h2 class="text-white my-4">
+          <span class=" rounded-3 px-4 text-white p-2" style="background-color: #604cf8;">All Products: [ <span id="counter"></span> ]</span>
+        </h2>
+        <div class="row g-4" id="productContainer"></div>
+      </div>
+    </section>
+  </header>
+
+
+    <!-- Bootstrap -->
+<script src="js/bootstrap.bundle.min.js"></script>
+    <!-- script.js -->
+<script src="js/script.js"></script>
+</body>
+</html>
